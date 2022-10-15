@@ -18,7 +18,7 @@ function App() {
       <section className='{style.sectionContainer}'>
         {/* Navbar */}
         <Navbar />
-        // Check for user login status
+        {/* Check for user login status */}
         {user ? <Chat /> : null}
       </section>
     </div>
